@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "category_name": "Beading & Jewelry Making"
+  },
+  {
+    "id": 2,
+    "category_name": "Fabric Decorating"
+  },
+  {
+    "id": 3,
+    "category_name": "Knitting & Crochet Supplies"
+  },
+  {
+    "id": 4,
+    "category_name": "Printmaking Supplies"
+  },
+  {
+    "id": 5,
+    "category_name": "Scrapbooking & Stamping Supplies"
+  },
+  {
+    "id": 6,
+    "category_name": "Sewing Products"
+  },
+  {
+    "id": 7,
+    "category_name": "Craft & Hobby Fabric"
+  },
+  {
+    "id": 8,
+    "category_name": "Needlework Supplies"
+  },
+  {
+    "id": 9,
+    "category_name": "Arts, Crafts & Sewing Storage"
+  },
+  {
+    "id": 10,
+    "category_name": "Painting, Drawing & Art Supplies"
+  },
+  {
+    "id": 11,
+    "category_name": "Craft Supplies & Materials"
+  },
+  {
+    "id": 12,
+    "category_name": "Gift Wrapping Supplies"
+  },
+  {
+    "id": 13,
+    "category_name": "Party Decorations"
+  },
+  {
+    "id": 14,
+    "category_name": "Automotive Paint & Paint Supplies"
+  },
+  {
+    "id": 15,
+    "category_name": "Heavy Duty & Commercial Vehicle Equipment"
+  },
+  {
+    "id": 16,
+    "category_name": "Automotive Tires & Wheels"
+  },
+  {
+    "id": 17,
+    "category_name": "Automotive Tools & Equipment"
+  },
+  {
+    "id": 18,
+    "category_name": "Automotive Performance Parts & Accessories"
+  },
+  {
+    "id": 19,
+    "category_name": "Car Care"
+  },
+  {
+    "id": 20,
+    "category_name": "Oils & Fluids"
+  },
+  {
+    "id": 21,
+    "category_name": "Automotive Replacement Parts"
+  },
+  {
+    "id": 22,
+    "category_name": "Lights, Bulbs & Indicators"
+  },
+  {
+    "id": 23,
+    "category_name": "Automotive Interior Accessories"
+  },
+  {
+    "id": 24,
+    "category_name": "Automotive Exterior Accessories"
+  },
+  {
+    "id": 25,
+    "category_name": "Automotive Enthusiast Merchandise"
+  },
+  {
+    "id": 26,
+    "category_name": "Car Electronics & Accessories"
+  },
+  {
+    "id": 27,
+    "category_name": "RV Parts & Accessories"
+  },
+  {
+    "id": 28,
+    "category_name": "Motorcycle & Powersports"
+  },
+  {
+    "id": 29,
+    "category_name": "Baby Diapering Products"
+  },
+  {
+    "id": 30,
+    "category_name": "Baby & Toddler Feeding Supplies"
+  },
+  {
+    "id": 31,
+    "category_name": "Pregnancy & Maternity Products"
+  },
+  {
+    "id": 32,
+    "category_name": "Child Safety Car Seats & Accessories"
+  },
+  {
+    "id": 33,
+    "category_name": "Baby Safety Products"
+  },
+  {
+    "id": 34,
+    "category_name": "Toilet Training Products"
+  },
+  {
+    "id": 35,
+    "category_name": "Baby Care Products"
+  },
+  {
+    "id": 36,
+    "category_name": "Baby Travel Gear"
+  },
+  {
+    "id": 38,
+    "category_name": "Baby Activity & Entertainment Products"
+  },
+  {
+    "id": 39,
+    "category_name": "Baby Gifts"
+  },
+  {
+    "id": 40,
+    "category_name": "Baby Stationery"
+  },
+  {
+    "id": 41,
+    "category_name": "Nursery Furniture, Bedding & Décor"
+  },
+  {
+    "id": 42,
+    "category_name": "Baby"
+  },
+  {
+    "id": 43,
+    "category_name": "Baby Boys' Clothing & Shoes"
+  },
+  {
+    "id": 44,
+    "category_name": "Baby Strollers & Accessories"
+  },
+  {
+    "id": 45,
+    "category_name": "Beauty & Personal Care"
+  },
+  {
+    "id": 46,
+    "category_name": "Perfumes & Fragrances"
+  },
+  {
+    "id": 47,
+    "category_name": "Hair Care Products"
+  },
+  {
+    "id": 48,
+    "category_name": "Makeup"
+  },
+  {
+    "id": 49,
+    "category_name": "Skin Care Products"
+  },
+  {
+    "id": 50,
+    "category_name": "Beauty Tools & Accessories"
+  },
+  {
+    "id": 51,
+    "category_name": "Foot, Hand & Nail Care Products"
+  },
+  {
+    "id": 52,
+    "category_name": "Personal Care Products"
+  },
+  {
+    "id": 53,
+    "category_name": "Shaving & Hair Removal Products"
+  },
+  {
+    "id": 54,
+    "category_name": "Computer Servers"
+  },
+  {
+    "id": 55,
+    "category_name": "Data Storage"
+  },
+  {
+    "id": 56,
+    "category_name": "Computer Monitors"
+  },
+  {
+    "id": 57,
+    "category_name": "Computers & Tablets"
+  },
+  {
+    "id": 58,
+    "category_name": "Tablet Replacement Parts"
+  },
+  {
+    "id": 60,
+    "category_name": "Computer Networking"
+  },
+  {
+    "id": 63,
+    "category_name": "Computer Components"
+  },
+  {
+    "id": 64,
+    "category_name": "Tablet Accessories"
+  },
+  {
+    "id": 65,
+    "category_name": "Laptop Accessories"
+  },
+  {
+    "id": 66,
+    "category_name": "Computer External Components"
+  },
+  {
+    "id": 68,
+    "category_name": "Wearable Technology"
+  },
+  {
+    "id": 69,
+    "category_name": "Televisions & Video Products"
+  },
+  {
+    "id": 70,
+    "category_name": "GPS & Navigation"
+  },
+  {
+    "id": 71,
+    "category_name": "Headphones & Earbuds"
+  },
+  {
+    "id": 72,
+    "category_name": "Office Electronics"
+  },
+  {
+    "id": 73,
+    "category_name": "Portable Audio & Video"
+  },
+  {
+    "id": 74,
+    "category_name": "eBook Readers & Accessories"
+  },
+  {
+    "id": 75,
+    "category_name": "Cell Phones & Accessories"
+  },
+  {
+    "id": 76,
+    "category_name": "Accessories & Supplies"
+  },
+  {
+    "id": 77,
+    "category_name": "Video Projectors"
+  },
+  {
+    "id": 78,
+    "category_name": "Vehicle Electronics"
+  },
+  {
+    "id": 79,
+    "category_name": "Camera & Photo"
+  },
+  {
+    "id": 80,
+    "category_name": "Security & Surveillance Equipment"
+  },
+  {
+    "id": 81,
+    "category_name": "Computers"
+  },
+  {
+    "id": 82,
+    "category_name": "Home Audio & Theater Products"
+  },
+  {
+    "id": 83,
+    "category_name": "Video Game Consoles & Accessories"
+  },
+  {
+    "id": 84,
+    "category_name": "Boys' Clothing"
+  },
+  {
+    "id": 87,
+    "category_name": "Boys' Accessories"
+  },
+  {
+    "id": 88,
+    "category_name": "Boys' Jewelry"
+  },
+  {
+    "id": 89,
+    "category_name": "Boys' Watches"
+  },
+  {
+    "id": 90,
+    "category_name": "Boys' Shoes"
+  },
+  {
+    "id": 91,
+    "category_name": "Girls' Clothing"
+  },
+  {
+    "id": 94,
+    "category_name": "Girls' Accessories"
+  },
+  {
+    "id": 95,
+    "category_name": "Girls' Jewelry"
+  },
+  {
+    "id": 96,
+    "category_name": "Girls' Watches"
+  },
+  {
+    "id": 97,
+    "category_name": "Girls' Shoes"
+  },
+  {
+    "id": 98,
+    "category_name": "Girls' School Uniforms"
+  },
+  {
+    "id": 99,
+    "category_name": "Travel Duffel Bags"
+  },
+  {
+    "id": 100,
+    "category_name": "Messenger Bags"
+  }
+]
