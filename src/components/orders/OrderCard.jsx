@@ -1,4 +1,3 @@
-// src/components/orders/OrderCard.jsx
 import React from "react";
 
 const OrderCard = ({ order, onCancelOrder }) => {

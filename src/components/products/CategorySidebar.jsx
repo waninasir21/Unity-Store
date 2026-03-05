@@ -1,4 +1,3 @@
-// src/components/products/CategorySidebar.jsx
 import React, { useEffect, useState } from "react";
 import { Link, useParams, useNavigate, useLocation } from "react-router-dom";
 import { useProducts } from "../../hooks/useProducts";
@@ -60,8 +59,6 @@ const CategorySidebar = () => {
     );
 
     setShowBestSellersOnly(params.get("bestSeller") === "true");
-
-    // These might be handled in ProductFilter, but include for completeness
     if (params.get("search")) setSearchQuery(params.get("search"));
     if (params.get("sort")) setSortBy(params.get("sort"));
   }, [

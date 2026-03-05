@@ -1,4 +1,3 @@
-// src/components/filters/PriceFilter.jsx
 import React from "react";
 
 const PriceFilter = ({ priceRange, setPriceRange }) => {

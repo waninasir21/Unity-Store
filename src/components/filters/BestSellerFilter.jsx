@@ -1,4 +1,3 @@
-// src/components/filters/BestSellerFilter.jsx
 import React from "react";
 
 const BestSellerFilter = ({ showBestSellersOnly, setShowBestSellersOnly }) => {

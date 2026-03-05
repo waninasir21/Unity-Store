@@ -1,4 +1,3 @@
-// src/utils/toast.js
 import toast from 'react-hot-toast';
 
 // Custom style object to match your brand

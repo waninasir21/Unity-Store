@@ -1,4 +1,5 @@
-// src/pages/Login.jsx
+//----------UNDER DEVLOPMENT------------//
+
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
@@ -111,7 +112,7 @@ const Login = () => {
       // Lock account after 5 failed attempts
       if (newAttempts >= 5) {
         setIsLocked(true);
-        setLockTimeRemaining(300); // 5 minutes lockout
+        setLockTimeRemaining(300);
         setError("Too many failed attempts. Account locked for 5 minutes.");
       } else {
         setError(
@@ -124,15 +125,14 @@ const Login = () => {
   };
 
   const handleForgotPassword = () => {
-    // You can implement forgot password functionality here
+    // forgot password functionality pending
     alert("Please contact support to reset your password.");
   };
 
   const handleGuestLogin = async () => {
     setLoading(true);
     try {
-      // You can implement guest login functionality here
-      // For demo purposes, we'll use a predefined guest account
+      // guest login functionality pending
       await login("guest", "guest123");
       navigate(from, { replace: true });
     } catch (err) {

@@ -1,4 +1,3 @@
-// src/context/OrderContext.jsx
 import React, { createContext, useState, useContext, useEffect } from "react";
 import { useAuth } from "./AuthContext";
 
@@ -67,8 +66,8 @@ export const OrderProvider = ({ children }) => {
           orderDate: orderDate.toISOString(),
           estimatedDelivery: deliveryDate.toISOString(),
           deliveredDate: null,
-          status: "processing", // processing, shipped, delivered, cancelled
-          paymentMethod: "Cash on Delivery", // Default for now
+          status: "processing",
+          paymentMethod: "Cash on Delivery",
         };
 
         // Get existing orders

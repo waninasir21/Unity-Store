@@ -1,4 +1,3 @@
-// src/hooks/useCategories.js (Complete)
 import { useState, useEffect } from 'react';
 import categoriesData from '../data/categories.json';
 

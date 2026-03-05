@@ -1,4 +1,3 @@
-// src/App.jsx - Production-Ready Version
 import React, { lazy, Suspense, useEffect } from "react";
 import {
   BrowserRouter as Router,

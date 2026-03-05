@@ -1,4 +1,3 @@
-// src/components/common/CategoryNav.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useCategories } from "../../hooks/useCategories";
@@ -46,7 +45,7 @@ const CategoryNav = () => {
 
   const sortedLetters = Object.keys(groupedCategories).sort();
 
-  // Get main categories (indices 5-9 for display)
+  // Get main categories (indices 6-10 for display-for demo purposes)
   const mainCategories = categories.slice(6, 10);
 
   // Filter categories based on search
@@ -133,7 +132,7 @@ const CategoryNav = () => {
                 <span>All Categories</span>
               </button>
 
-              {/* FIXED: Categories Dropdown Menu - Added complete content */}
+              {/* Categories Dropdown Menu */}
               {activeDropdown === "categories" && (
                 <div className="absolute top-full left-0 mt-1 w-80 bg-white rounded-lg shadow-xl overflow-hidden z-50">
                   {/* Search in dropdown */}
@@ -346,7 +345,7 @@ const CategoryNav = () => {
             </Link>
           </div>
 
-          {/* FIXED: Mobile Menu with complete content */}
+          {/* Mobile Menu with complete content */}
           {isOpen && (
             <div
               className="absolute left-0 right-0 bg-gray-800 border-t border-gray-700 shadow-lg z-50"

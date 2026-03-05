@@ -1,4 +1,3 @@
-// src/components/common/Footer.jsx
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";

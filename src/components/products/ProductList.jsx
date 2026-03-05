@@ -1,4 +1,3 @@
-// src/components/products/ProductList.jsx
 import React from "react";
 import ProductCard from "../common/ProductCard";
 import { Frown } from "lucide-react";

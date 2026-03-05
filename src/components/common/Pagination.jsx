@@ -1,4 +1,3 @@
-// src/components/common/Pagination.jsx
 import React from "react";
 
 const Pagination = ({
@@ -11,7 +10,7 @@ const Pagination = ({
 }) => {
   // Generate page numbers to display
   const getPageNumbers = () => {
-    const delta = 2; // Number of pages to show on each side
+    const delta = 2;
     const range = [];
     const rangeWithDots = [];
     let l;

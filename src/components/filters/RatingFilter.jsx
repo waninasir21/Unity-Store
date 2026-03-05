@@ -1,4 +1,3 @@
-// src/components/filters/RatingFilter.jsx
 import React from "react";
 import { Star } from "lucide-react";
 

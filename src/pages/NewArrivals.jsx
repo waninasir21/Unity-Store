@@ -1,4 +1,3 @@
-// src/pages/NewArrivals.jsx
 import React, { useState, useEffect } from "react";
 import { useProducts } from "../hooks/useProducts";
 import ProductCard from "../components/common/ProductCard";

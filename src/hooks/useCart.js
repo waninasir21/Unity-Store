@@ -1,4 +1,3 @@
-// src/hooks/useCart.js
 import { useState, useEffect, useCallback } from 'react';
 
 export const useCart = (userId) => {

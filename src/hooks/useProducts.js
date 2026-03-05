@@ -1,4 +1,3 @@
-// src/hooks/useProducts.js
 import { useState, useEffect} from "react";
 import productsData from "../data/products.json";
 
@@ -13,9 +12,9 @@ export const useProducts = () => {
   const [productsPerPage, setProductsPerPage] = useState(12);
   const [filteredProducts, setFilteredProducts] = useState([]);
 
-  // Filter states - use strings for price to match URL params
+  // Filter states 
   const [selectedCategory, setSelectedCategory] = useState("all");
-  const [priceRange, setPriceRange] = useState({ min: "", max: "" }); // Changed to strings
+  const [priceRange, setPriceRange] = useState({ min: "", max: "" });
   const [sortBy, setSortBy] = useState("featured");
   const [searchQuery, setSearchQuery] = useState("");
   const [showBestSellersOnly, setShowBestSellersOnly] = useState(false);
@@ -143,7 +142,7 @@ export const useProducts = () => {
     setProducts(filteredProducts.slice(startIndex, endIndex));
   }, [filteredProducts, currentPage, productsPerPage]);
 
-  // ============= HELPER FUNCTIONS =============
+  // ============= HELPER FUNCTIONS =============//
 
   const getProductById = (id) => {
     return allProducts.find((product) => product && product.asin === id);
@@ -200,7 +199,7 @@ export const useProducts = () => {
 
   const resetFilters = () => {
     setSelectedCategory("all");
-    setPriceRange({ min: "", max: "" }); // Reset to empty strings
+    setPriceRange({ min: "", max: "" }); 
     setSortBy("featured");
     setSearchQuery("");
     setShowBestSellersOnly(false);

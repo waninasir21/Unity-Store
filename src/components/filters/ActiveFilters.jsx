@@ -1,4 +1,3 @@
-// src/components/filters/ActiveFilters.jsx
 import React from "react";
 
 const ActiveFilters = ({

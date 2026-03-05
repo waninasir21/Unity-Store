@@ -1,4 +1,3 @@
-// src/pages/Signup.jsx (Enhanced)
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
@@ -59,7 +58,7 @@ const Signup = () => {
     ];
     return colors[passwordStrength] || "bg-red-500";
   };
-
+  // Form Validations
   const validateForm = () => {
     if (!formData.username.trim()) {
       setError("Username is required");

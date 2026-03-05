@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import { useProducts } from "../hooks/useProducts";
@@ -14,7 +13,7 @@ const Home = () => {
   const bestSellers = getBestSellers().slice(0, 4);
   const recentProducts = products.slice(0, 4);
 
-  // Get some featured categories
+  // Getting some featured categories
   const featuredCategories = categories.slice(0, 6);
 
   if (loading) {
@@ -30,7 +29,6 @@ const Home = () => {
       {/* Hero Section */}
       <div
         className="text-gray-900 bg-cover bg-center h-83 relative flex items-center"
-        // Use inline style for the dynamic URL
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div className="container mx-auto flex justify-center flex-col px-4 text-gray-900">

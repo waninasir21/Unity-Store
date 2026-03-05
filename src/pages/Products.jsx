@@ -1,4 +1,3 @@
-// src/pages/Products.jsx
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { useProducts } from "../hooks/useProducts";
@@ -29,7 +28,7 @@ const Products = () => {
     setSelectedRatings,
     showBestSellersOnly,
     setShowBestSellersOnly,
-    setSelectedCategory, // Add this
+    setSelectedCategory,
   } = useProducts();
 
   // Read filters from URL on mount and when URL changes

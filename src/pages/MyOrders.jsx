@@ -1,4 +1,3 @@
-// src/pages/MyOrders.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useOrders } from "../context/OrderContext";

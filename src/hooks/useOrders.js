@@ -1,4 +1,3 @@
-// src/hooks/useOrders.js
 import { useState, useEffect, useCallback } from 'react';
 
 export const useOrders = (userId) => {
@@ -93,7 +92,7 @@ export const useOrders = (userId) => {
           subtotal: item.price * item.quantity
         })),
         totalAmount,
-        subtotal: totalAmount * 0.92, // Approximate (without tax/shipping)
+        subtotal: totalAmount * 0.92, 
         tax: totalAmount * 0.08,
         shipping: totalAmount > 50 ? 0 : 5.99,
         shippingAddress,
@@ -101,8 +100,8 @@ export const useOrders = (userId) => {
         orderDate: orderDate.toISOString(),
         estimatedDelivery: estimatedDelivery.toISOString(),
         deliveredDate: null,
-        status: 'processing', // processing, confirmed, shipped, delivered, cancelled
-        paymentStatus: 'pending', // pending, paid, failed
+        status: 'processing', 
+        paymentStatus: 'pending', 
         trackingNumber: generateTrackingNumber(),
         notes: ''
       };
